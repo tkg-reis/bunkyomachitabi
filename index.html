@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet.css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <title>YLC BUNKYO MACHITABI</title>
+</head>
+<body>
+  <div class="header">
+    <div class="header-logo">BUNKYO MACHITABI<br><span>東京大学主催地方創生サークルYLC</span></div>
+    <div class="header-list">
+      <nav>
+        <ul>
+          <li><a class="sentence-btn" href="#sentence">ACTIVITY</a></li>
+          <li><a class="gallery-btn" href="#gallery">GALLERY</a></li>
+          <li><a class="profile-btn" href="#profile">PRIFILE</a></li>
+          <li><a class="map-btn" href="#map">ACCESS</a></li>
+          <li><a class="contact-btn" href="#contact">JOIN/CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-center">
+      <div class="hs">
+        <h1>BUNKYO MACHITABI</h1>
+        <p>YLC PRESENTS</p>
+      </div>
+    </div>
+  </div>
+  <a href="#page-top" class="page-top-btn">TOP</a>
+  <div class="main">
+    <div class="copy-container" id="sentence">
+      <h1><i class="bi bi-activity"></i>activity</h1>
+      <div class="copy-writer">
+        <div class="cw-image">
+          <img src="little-girl.bm.jpg" alt="" srcset="">
+        </div>
+        <div class="cw-sentence">
+          <h1>BUNKYO MACHITABIについて</h1>
+          <p>文京区を中心にまちあるきを通して、新しい発見をすると共にその部分をPRする活動です。発見のために実際に文京区内をまちあるきして様々な場面の写真を撮ってNOTEの記事にしています。詳しくはこちらからご覧ください。また今回のまちあるきに関しては学生団体TOHOPの方々との協働で進めて参りました。TOHOPの方の作品・情報は下記に掲載しております。是非ご覧ください。</p>
+          <button id="note-modal-open">TO THE NOTE</button>
+          <div id="modal">
+            <div class="note-modal-container">
+              <div class="modal-header">
+                <h1>YLC note</h1>
+                <span id="modal-close-icon">&times;</span>
+              </div>
+              <div class="modal-body">
+                <!-- ここに1ー7回のまちたびを表示 -->
+                <div class="modal-article one">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n10768d629009?magazine_key=m42b19676903e" target="_blank">第1回まちあるき<br>@本郷編</a></h1>
+                  <img src="modalone.jpg" alt="">
+                </div>
+                <div class="modal-article two">
+                  <h1><a href="https://note.com/yourlocalclub47/n/nc792d48f0026?magazine_key=m42b19676903e" target="_blank">第2回まちあるき<br>@南本郷・湯島編</a></h1>
+                  <img src="modaltwo.jpg" alt="">
+                </div>
+                <div class="modal-article three">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n219d9f5c89f0?magazine_key=m42b19676903e" target="_blank">第3回まちあるき<br>@西片・向丘・弥生編</a></h1>
+                  <img src="modalthree.jpg" alt="">
+                </div>
+                <div class="modal-article four">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n59fc6a670715?magazine_key=m42b19676903e" target="_blank">第4回まちあるき<br>@根津・千駄木編</a></h1>
+                  <img src="modalfour.jpg" alt="">
+                </div>
+                <div class="modal-article five">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n8448d41819da?magazine_key=m42b19676903e" target="_blank">第5回まちあるき<br>@本駒込編</a></h1>
+                  <img src="modalfive.JPG" alt="">
+                </div>
+                <div class="modal-article six">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n6e463d90388c?magazine_key=m42b19676903e" target="_blank">第6回まちあるき<br>@白山・千石編</a></h1>
+                  <img src="modalsix.jpg" alt="">
+                </div>
+                <div class="modal-article seven">
+                  <h1><a href="https://note.com/yourlocalclub47/n/n3ef540c94ea7" target="_blank">第7回まちあるき<br>@茗荷谷編</a></h1>
+                  <img src="modalseven.jpg" alt="">
+                </div>
+              </div>
+              <div id="note-modal-close">close</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery" id="gallery">
+      <h2><i class="bi bi-image-fill"></i>gallery</h2>
+      <div class="g-area">
+        <a href="まちたび写真\文京１.jpg" data-lightbox="photo"><img src="まちたび写真\文京１.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\本郷トップ.jpg" data-lightbox="photo"><img src="まちたび写真\本郷トップ.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\landing 6.jpeg" data-lightbox="photo"><img src="まちたび写真\landing 6.jpeg" alt="" srcset=""></a>
+        <a href="まちたび写真\landing 4jpg.jpg" data-lightbox="photo"> <img src="まちたび写真\landing 4jpg.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\landing 3.JPG" data-lightbox="photo"><img src="まちたび写真\landing 3.JPG" alt="" srcset=""></a>
+        <a href="まちたび写真\landing 2.jpg" data-lightbox="photo"><img src="まちたび写真\landing 2.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\IMG_6001.jpg" data-lightbox="photo"><img src="まちたび写真\IMG_6001.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\IMG_4380.jpg" data-lightbox="photo"><img src="まちたび写真\IMG_4380.jpg" alt="" srcset=""></a>
+        <a href="まちたび写真\IMG_20200926_162459.jpg" data-lightbox="photo"><img src="まちたび写真\IMG_20200926_162459.jpg" alt="" srcset=""></a>
+      </div>
+    </div>
+    <div class="profile" id="profile">
+      <h3><i class="bi bi-file-earmark-person-fill"></i>profile</h3>
+      <div class="pf-contents">
+        <div class="pf-content">
+          <i class="bi bi-compass-fill"></i>
+          <p>実際に文京区内の歩く場所をリサーチしてからまちあるきをしています。</p>
+        </div>
+        <div class="pf-content">
+          <i class="bi bi-camera-fill"></i>
+          <p>参加者学生それぞれのインスピレーションによって様々な写真を撮ります。</p>
+        </div>
+        <div class="pf-content">
+          <i class="bi bi-brush-fill"></i>
+          <p>撮った写真を抜粋して後日、NOTEにアップします。あなたの知らない文京区を知ることができます。</p>
+        </div>
+      </div>
+    </div>
+   <div class="map-contents" id="map">
+      <h1 class="access"><i class="bi bi-geo-alt-fill"></i>access</h1>
+      <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12958.47396769521!2d139.7658443861158!3d35.71100479261745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d63dffe90ad%3A0xcdce7d5389fe8711!2z5p2x5Lqs5aSn5a2m6LWk6ZaA77yI5pen5Yqg6LOA5bGL5pW35b6h5a6I5q6_6ZaA77yJ!5e0!3m2!1sja!2sjp!4v1649993259209!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    <!-- <aside class="ylc-relationship">
+      <h1>JaGA</h1>
+      <div class="modal">
+        <div id="modal-open">youtubeはこちらから</div>
+        <div id="modal-bg" class="active"></div>
+        <div id="modal-container" class="active">
+          <iframe width="713" height="401" src="https://www.youtube.com/embed/AKGhOE3p8Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div id="modal-close">close</div>
+        </div>
+      </div>
+    </aside> -->
+  <div class="contact" id="contact">
+    <div class="contact-form">
+      <p class="title"><i class="bi bi-send-fill"></i>join/contact us</p>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="57b64469-8d9e-4f22-b2b0-1e5b76265845">
+        <div class="item">
+          <label class="label" name="name"><i class="bi bi-person-circle"></i>name*</label>
+          <input type="text" name="name" class="inputs" required>
+        </div>
+        <div class="item">
+          <label class="label" name="name"><i class="bi bi-mortarboard-fill"></i>university-name</label>
+          <input type="text" name="name" class="inputs">
+        </div>
+        <div class="item">
+          <label class="label" name="name"><i class="bi bi-envelope-fill"></i>e-mail*</label>
+          <input type="email" name="email" class="inputs"  required>
+        </div>
+        <div class="item">
+          <p class="label"><i class="bi bi-123"></i>grade</p>
+          <select class="inputs" name="name">
+            <option>選択してください</option>
+            <option>1年生</option>
+            <option>2年生</option>
+            <option>3年生</option>
+            <option>4年生</option>
+            <option>院1年生</option>
+            <option>院2年生</option>
+            <option>社会人</option>
+          </select>
+        </div>
+        <div class="item">
+          <label class="label"><i class="bi bi-question-circle-fill"></i>question</label>
+          <textarea name="message" class="inputs" placeholder="ご不明点があればこちらにお願いします。"></textarea>
+        </div>
+        <div class="btn-area">
+          <input type="submit" value="send">
+          <input type="reset" value="reset">
+        </div>
+      </form>
+      <!-- <div class="modal">
+        <div id="" class="active"></div>
+        <div id="" class="active">
+          <p>送信が完了しました。</p>
+          <div id="">close</div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <div class="footer">
+    <div class="sns">
+      <a href=""><i class="bi bi-twitter"></i></a>
+      <a href=""><i class="bi bi-facebook"></i></a>
+      <a href=""><i class="bi bi-youtube"></i></a>
+      <a href=""><i class="bi bi-instagram"></i></a>
+    </div>
+    <div class="cp">
+      <p>copyright(c) ylc.bunkyo-machitabi</p>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
